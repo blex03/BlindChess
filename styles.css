@@ -5,15 +5,14 @@ h1 {
     font-size: 90px;
 }
 
-.button {
-    position: relative;
-    left: 590px;
-    top: 200px;
+.choose{
+  font-size: 35px;
 
-    background-color: #171717; /* Green */
-    color: white;
-    padding: 22px 46px;
+  position: relative;
+  top: 110px;
+}
 
+button {
     text-align: center;
     display: inline-block;
 
@@ -26,10 +25,35 @@ h1 {
     transition-duration: 0.3s;
   }
 
-  .button:hover {
-    background-color: white; 
-    color: #171717;
-  }
+.b1{
+  position: fixed;
+  right: 35%;
+  top: 65%;
+
+  background-color: white;
+  color: #171717;
+  padding: 22px 46px;
+}
+
+.b1:hover {
+  background-color: white; 
+  color: white;
+}
+
+.b2{
+  position: fixed;
+  left: 35%;
+  top: 65%;
+
+  background-color: #171717;
+  color: white;
+  padding: 22px 46px;
+}
+
+.b2:hover {
+  background-color: #171717; 
+  color: #171717;
+}
 
 body {
     background-color: #171717;
