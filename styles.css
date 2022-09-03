@@ -26,34 +26,36 @@ button {
   }
 
 .b1{
-  position: fixed;
-  right: 35%;
-  top: 65%;
-
-  background-color: white;
-  color: #171717;
-  padding: 22px 46px;
-}
-
-.b1:hover {
-  background-color: white; 
-  color: white;
-}
-
-.b2{
-  position: fixed;
-  left: 35%;
-  top: 65%;
+  position: relative;
+  right: 110px;
+  top: 130px;
 
   background-color: #171717;
   color: white;
   padding: 22px 46px;
 }
 
-.b2:hover {
+.b1:hover {
   background-color: #171717; 
   color: #171717;
 }
+
+.b2{
+  position: relative;
+  left: 110px;
+  top: 41px;
+
+  background-color: white;
+  color: #171717;
+  padding: 22px 46px;
+}
+
+.b2:hover {
+  background-color: white; 
+  color: white;
+}
+
+
 
 body {
     background-color: #171717;
